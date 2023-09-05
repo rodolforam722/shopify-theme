@@ -1,0 +1,37 @@
+<div style="background-color: {{section.settings.background_color}}">
+<p>titulo:{{ section.settings.fofo_title }}</p>
+</div>
+{% schema %}
+{
+  "name": "Fifty-Fifty",
+  "tag": "section",
+  "class": "Fifty-Fifty",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Fifty-Fifty"
+    },
+    {
+      "type":"color",
+      "id":"background_color",
+      "label":"Background Color"
+    },
+    {
+      "type": "text",
+      "id": "fofo_title",
+      "label":"escriba aca"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Fifty-Fifty",
+      "settings": {
+        "title": "Fifty-Fifty"
+      }
+    }
+  ]
+}
+{% endschema %}
+

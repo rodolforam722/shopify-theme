@@ -1,0 +1,12 @@
+{
+    "wrapper": "div",
+    "sections": {
+      "main-index": {
+        "type": "main-index"
+      }
+    },
+    "order": [
+      "main-index"
+    ]
+  }
+  

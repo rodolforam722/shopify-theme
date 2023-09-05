@@ -1,0 +1,25 @@
+<html>
+<head>
+    {{ content_for_header }}
+    <style>
+        body{
+            background-color: #ccc;
+        }
+        footer{
+            background-color: red;
+        }
+        header{
+            background-color: blue;
+        }
+        .pencil{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    {% render 'pencil' %}
+    {% render 'header' %}
+    {{ content_for_layout }}
+    {% render 'footer' %}
+</body>
+</html>
